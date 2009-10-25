@@ -76,7 +76,6 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.admin',
     
-    'development_utils',
     'django_plist',
     
     'books',
