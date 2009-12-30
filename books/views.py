@@ -8,4 +8,4 @@ def all_authors(request):
 
 def single_author(request, author_id):
     author = get_object_or_404(Author, pk=author_id)
-    return render_dictionary({'Author Name': author.name, 'Homepage': author.blog})
+    return render_dictionary(author)
