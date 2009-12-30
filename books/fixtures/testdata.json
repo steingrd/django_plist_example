@@ -1,0 +1,74 @@
+[
+  {
+    "pk": 1, 
+    "model": "books.author", 
+    "fields": {
+      "blog": "http://b-list.org/", 
+      "name": "James Bennett"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "books.author", 
+    "fields": {
+      "blog": "http://martyalchin.com/", 
+      "name": "Marty Alchin"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "books.author", 
+    "fields": {
+      "blog": "http://aymanh.com/", 
+      "name": "Ayman Hourieh"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "books.author", 
+    "fields": {
+      "blog": "http://twitter.com/bignerdscott/", 
+      "name": "Scott Newman"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "books.book", 
+    "fields": {
+      "released": "2009-03-10", 
+      "price": 31, 
+      "author": 3, 
+      "title": "Django 1.0 Website Development"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "books.book", 
+    "fields": {
+      "released": "2009-06-23", 
+      "price": 30, 
+      "author": 1, 
+      "title": "Practical Django Projects"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "books.book", 
+    "fields": {
+      "released": "2008-12-16", 
+      "price": 26, 
+      "author": 2, 
+      "title": "Pro Django"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "books.book", 
+    "fields": {
+      "released": "2008-12-11", 
+      "price": 31, 
+      "author": 4, 
+      "title": "Django 1.0 Template Development"
+    }
+  }
+]
